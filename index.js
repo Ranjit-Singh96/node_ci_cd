@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.get("/",(req,res)=>{
-    res.send("Welcome to Nodejs server!")
+    res.send("Welcome to Nodejs server with ci/cd pipeline!")
 })
 
 app.listen(PORT,()=>{
